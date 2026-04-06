@@ -1,0 +1,13 @@
+model,provider,avg_latency_ms,min_latency_ms,max_latency_ms,recall_accuracy,recall_hits,total_probes,errors,cost_per_1k_in,cost_per_1k_out,free_tier
+gpt-5.4,openai,2324.3,1074.1,3761.3,25.3%,19,75,0,0.015,0.04,no
+gpt-5,openai,13631.7,4197.3,41940.7,49.3%,37,75,0,0.01,0.03,no
+gpt-4.1-mini,openai,1515.0,568.3,5627.8,44.0%,33,75,0,0.0004,0.0016,no
+claude-sonnet-4-6,anthropic,3257.3,2052.6,6003.4,17.3%,13,75,0,0.003,0.015,no
+claude-haiku-4-5,anthropic,1839.6,945.8,6483.7,25.3%,19,75,0,0.0008,0.004,no
+gemini-2.5-flash-lite,gemini,1020.5,565.1,3085.1,40.0%,30,75,0,0.0001,0.0004,no
+gemini-2.5-flash,gemini,2588.6,1499.9,6961.3,25.3%,19,75,2,0.0003,0.00125,no
+gemini-2.5-pro,gemini,9093.5,3572.7,26559.5,40.0%,30,75,1,0.00125,0.01,no
+gemini-3-flash,gemini,3910.1,2076.4,9895.3,44.0%,33,75,0,0.0003,0.0012,no
+gemini-3-pro,gemini,7145.5,3689.7,11862.9,38.7%,29,75,0,0.002,0.008,no
+gemini-3.1-flash-lite,gemini,1817.7,685.4,3712.7,37.3%,28,75,0,0.0001,0.0004,no
+gemini-3.1-pro,gemini,7594.7,4317.2,17325.3,33.3%,25,75,1,0.002,0.01,no

@@ -1,0 +1,4 @@
+condition,total_memories,avg_retrieved,avg_relevance_score,avg_fetch_ms,est_context_tokens,litm_risk
+cold_start,0,0,0.0,0.0,0,LOW
+vol_50,50,49.8,0.838,521.0,1618,MEDIUM
+vol_500,500,49,0.709,449.9,1592,HIGH

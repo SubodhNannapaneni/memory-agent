@@ -1,0 +1,196 @@
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Memory-Agent Research Experiment Runner                                     │
+│ Phases: §2.1 Threshold | §2.2 Volume | §2.3 Latency | §3.0 Conflict | §4.0  │
+│ Multi-Model                                                                 │
+│ Section : 4.0   Latency runs: 30   Model runs: 2                            │
+│ Date    : 2026-04-02                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+──────────────────────── § 4.0  Multi-Model Benchmark ─────────────────────────
+──────────────────────── Multi-Model Memory Comparison ────────────────────────
+Models to test : ['gpt-5.4', 'gpt-5', 'gpt-4.1-mini', 'claude-sonnet-4-6', 
+'claude-haiku-4-5', 'gemini-2.5-flash-lite', 'gemini-2.5-flash', 
+'gemini-2.5-pro', 'gemini-3-flash', 'gemini-3-pro', 'gemini-3.1-flash-lite', 
+'gemini-3.1-pro']
+Runs per probe : 2
+Test user id   : cmp_278587
+
+✓ Seeded 8 memories for user 'cmp_278587'
+────────────────────────────── Testing: gpt-5.4 ───────────────────────────────
+  Run 1 | What programming language do I mainly use?    |   1724ms | recall ✗
+  Run 1 | What city am I working from?                  |   1175ms | recall ✗
+  Run 1 | How many years of experience do I have?       |   1897ms | recall ✗
+  Run 1 | What is my current project about?             |   1684ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |   1574ms | recall ✗
+  Run 2 | What programming language do I mainly use?    |   1644ms | recall ✗
+  Run 2 | What city am I working from?                  |   2205ms | recall ✗
+  Run 2 | How many years of experience do I have?       |   1629ms | recall ✗
+  Run 2 | What is my current project about?             |   1457ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |   1661ms | recall ✗
+─────────────────────────────── Testing: gpt-5 ────────────────────────────────
+  Run 1 | What programming language do I mainly use?    |   7903ms | recall ✓
+  Run 1 | What city am I working from?                  |  11681ms | recall ✗
+  Run 1 | How many years of experience do I have?       |  44624ms | recall ✗
+  Run 1 | What is my current project about?             |   7013ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |  10364ms | recall ✓
+  Run 2 | What programming language do I mainly use?    |   6827ms | recall ✓
+  Run 2 | What city am I working from?                  |   8319ms | recall ✗
+  Run 2 | How many years of experience do I have?       |  10956ms | recall ✓
+  Run 2 | What is my current project about?             |  10278ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |   6645ms | recall ✓
+──────────────────────────── Testing: gpt-4.1-mini ────────────────────────────
+  Run 1 | What programming language do I mainly use?    |    848ms | recall ✓
+  Run 1 | What city am I working from?                  |   1210ms | recall ✗
+  Run 1 | How many years of experience do I have?       |    887ms | recall ✗
+  Run 1 | What is my current project about?             |   1184ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |    766ms | recall ✗
+  Run 2 | What programming language do I mainly use?    |    904ms | recall ✓
+  Run 2 | What city am I working from?                  |   1012ms | recall ✗
+  Run 2 | How many years of experience do I have?       |    862ms | recall ✗
+  Run 2 | What is my current project about?             |    645ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |    802ms | recall ✗
+───────────────────────── Testing: claude-sonnet-4-6 ──────────────────────────
+  Run 1 | What programming language do I mainly use?    |   4524ms | recall ✓
+  Run 1 | What city am I working from?                  |   6596ms | recall ✗
+  Run 1 | How many years of experience do I have?       |   2205ms | recall ✗
+  Run 1 | What is my current project about?             |   2716ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |   2587ms | recall ✗
+  Run 2 | What programming language do I mainly use?    |   4124ms | recall ✓
+  Run 2 | What city am I working from?                  |   5351ms | recall ✗
+  Run 2 | How many years of experience do I have?       |   2514ms | recall ✗
+  Run 2 | What is my current project about?             |   2998ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |   2490ms | recall ✗
+────────────────────────── Testing: claude-haiku-4-5 ──────────────────────────
+  Run 1 | What programming language do I mainly use?    |   1946ms | recall ✓
+  Run 1 | What city am I working from?                  |   1186ms | recall ✗
+  Run 1 | How many years of experience do I have?       |   2558ms | recall ✗
+  Run 1 | What is my current project about?             |   1223ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |   1567ms | recall ✗
+  Run 2 | What programming language do I mainly use?    |   1807ms | recall ✓
+  Run 2 | What city am I working from?                  |   1224ms | recall ✗
+  Run 2 | How many years of experience do I have?       |   1134ms | recall ✗
+  Run 2 | What is my current project about?             |   2911ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |   1570ms | recall ✗
+─────────────────────── Testing: gemini-2.5-flash-lite ────────────────────────
+  Run 1 | What programming language do I mainly use?    |    885ms | recall ✓
+  Run 1 | What city am I working from?                  |    824ms | recall ✗
+  Run 1 | How many years of experience do I have?       |    882ms | recall ✗
+  Run 1 | What is my current project about?             |   1145ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |   1388ms | recall ✓
+  Run 2 | What programming language do I mainly use?    |    809ms | recall ✓
+  Run 2 | What city am I working from?                  |    667ms | recall ✗
+  Run 2 | How many years of experience do I have?       |    764ms | recall ✗
+  Run 2 | What is my current project about?             |    734ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |    890ms | recall ✗
+────────────────────────── Testing: gemini-2.5-flash ──────────────────────────
+  Run 1 | What programming language do I mainly use?    |   2487ms | recall ✓
+  Run 1 | What city am I working from?                  |   2218ms | recall ✗
+  Run 1 | How many years of experience do I have?       |   2010ms | recall ✗
+  Run 1 | What is my current project about?             |   1473ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |   4228ms | recall ✗
+  Run 2 | What programming language do I mainly use?    |   2088ms | recall ✓
+  Run 2 | What city am I working from?                  |   1981ms | recall ✗
+  Run 2 | How many years of experience do I have?       |   2661ms | recall ✗
+  Run 2 | What is my current project about?             |   1484ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |   2598ms | recall ✗
+─────────────────────────── Testing: gemini-2.5-pro ───────────────────────────
+  Run 1 | What programming language do I mainly use?    |   6278ms | recall ✓
+  Run 1 | What city am I working from?                  |   7443ms | recall ✗
+  Run 1 | How many years of experience do I have?       |   6201ms | recall ✗
+  Run 1 | What is my current project about?             |   8182ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |   9880ms | recall ✗
+  Run 2 | What programming language do I mainly use?    |   8191ms | recall ✓
+  Run 2 | What city am I working from?                  |   8189ms | recall ✗
+  Run 2 | How many years of experience do I have?       |   6919ms | recall ✗
+  Run 2 | What is my current project about?             |   7452ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |  10668ms | recall ✓
+─────────────────────────── Testing: gemini-3-flash ───────────────────────────
+  Run 1 | What programming language do I mainly use?    |   2510ms | recall ✓
+  Run 1 | What city am I working from?                  |   2721ms | recall ✗
+  Run 1 | How many years of experience do I have?       |   2697ms | recall ✗
+  Run 1 | What is my current project about?             |   2420ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |   3780ms | recall ✓
+  Run 2 | What programming language do I mainly use?    |   2550ms | recall ✓
+  Run 2 | What city am I working from?                  |   2285ms | recall ✗
+  Run 2 | How many years of experience do I have?       |   2564ms | recall ✗
+  Run 2 | What is my current project about?             |   1747ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |   4380ms | recall ✓
+──────────────────────────── Testing: gemini-3-pro ────────────────────────────
+  Run 1 | What programming language do I mainly use?    |   6690ms | recall ✓
+  Run 1 | What city am I working from?                  |   4406ms | recall ✗
+  Run 1 | How many years of experience do I have?       |   5201ms | recall ✗
+  Run 1 | What is my current project about?             |   6328ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |   6897ms | recall ✓
+  Run 2 | What programming language do I mainly use?    |   6486ms | recall ✓
+  Run 2 | What city am I working from?                  |   5987ms | recall ✗
+  Run 2 | How many years of experience do I have?       |   4825ms | recall ✗
+  Run 2 | What is my current project about?             |   9484ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |   6660ms | recall ✗
+─────────────────────── Testing: gemini-3.1-flash-lite ────────────────────────
+  Run 1 | What programming language do I mainly use?    |   1600ms | recall ✓
+  Run 1 | What city am I working from?                  |   1263ms | recall ✗
+  Run 1 | How many years of experience do I have?       |   1625ms | recall ✗
+  Run 1 | What is my current project about?             |   1213ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |   1531ms | recall ✗
+  Run 2 | What programming language do I mainly use?    |    672ms | recall ✓
+  Run 2 | What city am I working from?                  |   1493ms | recall ✗
+  Run 2 | How many years of experience do I have?       |   1957ms | recall ✗
+  Run 2 | What is my current project about?             |   1216ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |   2076ms | recall ✓
+─────────────────────────── Testing: gemini-3.1-pro ───────────────────────────
+  Run 1 | What programming language do I mainly use?    |   6942ms | recall ✓
+  Run 1 | What city am I working from?                  |   4872ms | recall ✗
+  Run 1 | How many years of experience do I have?       |   5132ms | recall ✗
+  Run 1 | What is my current project about?             |   4234ms | recall ✓
+  Run 1 | Which ML framework do I prefer?               |   7298ms | recall ✓
+  Run 2 | What programming language do I mainly use?    |   7482ms | recall ✓
+  Run 2 | What city am I working from?                  |   5780ms | recall ✗
+  Run 2 | How many years of experience do I have?       |   4984ms | recall ✗
+  Run 2 | What is my current project about?             |   4979ms | recall ✓
+  Run 2 | Which ML framework do I prefer?               |   7179ms | recall ✓
+─────────────────────────────────── Results ───────────────────────────────────
+                 📊 Model Comparison — Latency & Memory Recall                 
+┌───────────┬───────────┬───────────┬───────────┬──────────┬───────┬──────────┐
+│           │           │ Avg       │ Min /     │ Recall   │       │          │
+│ Model     │ Provider  │ Latency(… │ Max(ms)   │ Accuracy │ Free? │ $/1k in  │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ gemini-2… │ gemini    │ 898.7     │ 667.2 /   │ 50.0%    │ no    │ $0.00010 │
+│           │           │           │ 1387.9    │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ gpt-4.1-… │ openai    │ 912.0     │ 644.7 /   │ 40.0%    │ no    │ $0.00040 │
+│           │           │           │ 1209.9    │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ gemini-3… │ gemini    │ 1464.5    │ 672.4 /   │ 50.0%    │ no    │ $0.00010 │
+│           │           │           │ 2076.1    │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ gpt-5.4   │ openai    │ 1664.9    │ 1174.5 /  │ 20.0%    │ no    │ $0.01500 │
+│           │           │           │ 2205.4    │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ claude-h… │ anthropic │ 1712.7    │ 1133.6 /  │ 40.0%    │ no    │ $0.00080 │
+│           │           │           │ 2910.8    │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ gemini-2… │ gemini    │ 2322.9    │ 1473.0 /  │ 40.0%    │ no    │ $0.00030 │
+│           │           │           │ 4227.6    │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ gemini-3… │ gemini    │ 2765.3    │ 1747.5 /  │ 60.0%    │ no    │ $0.00030 │
+│           │           │           │ 4380.3    │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ claude-s… │ anthropic │ 3610.5    │ 2205.2 /  │ 40.0%    │ no    │ $0.00300 │
+│           │           │           │ 6595.9    │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ gemini-3… │ gemini    │ 5888.2    │ 4233.9 /  │ 60.0%    │ no    │ $0.00200 │
+│           │           │           │ 7482.4    │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ gemini-3… │ gemini    │ 6296.4    │ 4405.9 /  │ 50.0%    │ no    │ $0.00200 │
+│           │           │           │ 9484.3    │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ gemini-2… │ gemini    │ 7940.4    │ 6201.3 /  │ 50.0%    │ no    │ $0.00125 │
+│           │           │           │ 10668.2   │          │       │          │
+├───────────┼───────────┼───────────┼───────────┼──────────┼───────┼──────────┤
+│ gpt-5     │ openai    │ 12461.0   │ 6644.9 /  │ 70.0%    │ no    │ $0.01000 │
+│           │           │           │ 44623.9   │          │       │          │
+└───────────┴───────────┴───────────┴───────────┴──────────┴───────┴──────────┘
+
+Results saved → experiments\results\model_comparison.csv
+
+✅ Done.  Open experiments/results/model_comparison.csv for your article data.
+EXIT=0

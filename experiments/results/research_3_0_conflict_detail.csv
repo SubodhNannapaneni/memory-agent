@@ -1,0 +1,21 @@
+category,expected,actual,correct,consistency_hit,reasoning,old_belief,new_belief
+language_switch,UPDATE,APPEND,False,False,No similar memories found.,User prefers Python as their primary programming language.,User has switched to Rust as their primary programming langu
+ui_preference,UPDATE,APPEND,False,False,No similar memories found.,User prefers dark mode in all interfaces.,User now prefers light mode after experiencing eye strain.
+location_change,UPDATE,APPEND,False,True,The new memory about relocating to Amsterdam is a distinct piece of information and does not conflic,"User works from home in Bangalore, India.","User has relocated to Amsterdam, Netherlands."
+tooling_change,UPDATE,APPEND,False,True,The new memory about switching to Neovim for development work is a distinct update regarding the use,User's primary IDE is VS Code.,User switched to Neovim for all development work.
+communication_style,UPDATE,IGNORE,False,True,"The new memory about preferring detailed, narrative-style explanations does not conflict with any ex","User prefers concise, bullet-pointed summaries.","User now prefers detailed, narrative-style explanations."
+skills_progression,UPDATE,APPEND,False,True,The new memory about mastering Rust and focusing on Zig is a distinct update in the user's skills an,User is currently learning Rust.,User has mastered Rust and is now focusing on Zig.
+career_change,UPDATE,APPEND,False,True,The new memory about the user changing jobs is a distinct piece of information and does not conflict,User works at a fintech startup.,User changed jobs and now works at a climate tech company.
+framework_switch,UPDATE,APPEND,False,False,No similar memories found.,User's favorite ML framework is PyTorch.,User has switched from PyTorch to JAX for all ML work.
+work_style,UPDATE,APPEND,False,True,The new memory about valuing face-to-face meetings for complex problems is a distinct preference and,User dislikes meetings and prefers async communication.,User now values face-to-face meetings for complex problems.
+lifestyle_change,UPDATE,APPEND,False,True,The new memory about adopting a fully vegan diet is a distinct and new piece of information that doe,User follows a vegetarian diet.,"User has adopted a fully vegan diet, cutting out all dairy."
+new_credential,APPEND,APPEND,True,False,No similar memories found.,User has 8 years of software engineering experience.,User recently obtained a machine learning certification from
+new_activity,APPEND,APPEND,True,True,The new memory about volunteering at a food bank is a distinct activity and does not conflict with e,User works remotely from Amsterdam.,User volunteers at a local food bank every other Saturday.
+new_project,APPEND,APPEND,True,False,No similar memories found.,User's primary IDE is Neovim.,User is writing a technical blog about software engineering.
+personal_fact,APPEND,APPEND,True,True,The new memory about the user's dogs is a distinct piece of information and does not conflict with e,User works at a climate tech company.,User has two golden retriever dogs named Max and Bella.
+unrelated_new,APPEND,APPEND,True,False,No similar memories found.,User prefers JAX for ML work.,User is learning Spanish for an upcoming trip to Barcelona.
+near_duplicate,IGNORE,APPEND,False,False,No similar memories found.,User prefers dark mode in all interfaces.,User has dark mode enabled in all their development tools.
+paraphrase,IGNORE,APPEND,False,False,No similar memories found.,User is a software engineer with 8 years of experience.,User is an experienced software developer with about 8 years
+rephrasing,IGNORE,APPEND,False,False,No similar memories found.,User works at a climate tech company.,User's employer operates in the climate technology sector.
+expansion_of_same,IGNORE,APPEND,False,False,No similar memories found.,User follows a vegan diet.,User is vegan and does not consume any animal products.
+synonym_rewrite,IGNORE,APPEND,False,False,No similar memories found.,User uses Neovim as their primary code editor.,User's preferred text editor for all coding is Neovim.

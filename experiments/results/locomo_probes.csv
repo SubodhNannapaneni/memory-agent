@@ -1,0 +1,26 @@
+user_id,question,expected_answer,evidence_sessions,category
+locomo_user_0000,What language has this user been learning?,Spanish,turn_0,personal_info
+locomo_user_0000,What is the user's dog's name?,Bruno,turn_6,personal_info
+locomo_user_0000,What is the user allergic to?,shellfish,turn_5,health
+locomo_user_0000,Where does the user want to move?,Portugal,turn_9,plans
+locomo_user_0000,What pet does the user have?,a golden retriever named Bruno,turn_6,personal_info
+locomo_user_0001,What city did this user grow up in?,a small town in Ohio,turn_0,background
+locomo_user_0001,What is the user's cat's name?,Miso,turn_9,personal_info
+locomo_user_0001,When did the user get married?,2021,turn_4,life_event
+locomo_user_0001,What is the user's diet?,vegetarian,turn_8,health
+locomo_user_0001,What sport does the user enjoy watching?,basketball,turn_6,interests
+locomo_user_0002,Where was this user born?,Mumbai,turn_0,background
+locomo_user_0002,How many languages does the user speak?,four,turn_2,skills
+locomo_user_0002,What is the user writing?,a historical thriller novel,turn_5,hobbies
+locomo_user_0002,What event is the user training for?,a half marathon,turn_9,plans
+locomo_user_0002,What is the user's favorite cuisine?,Japanese food,turn_6,preferences
+locomo_user_0003,How long did this user serve in the military?,twenty-two years,turn_0,background
+locomo_user_0003,What state does the user live in?,Vermont,turn_4,location
+locomo_user_0003,What martial art does the user practice?,Brazilian jiu-jitsu,turn_8,hobbies
+locomo_user_0003,What programming language is the user learning?,Python,turn_9,skills
+locomo_user_0003,What does the user's oldest daughter want to be?,a veterinarian,turn_6,family
+locomo_user_0004,What subject does this user teach?,art,turn_0,profession
+locomo_user_0004,Where did the user paint last summer?,Tuscany,turn_3,travel
+locomo_user_0004,What dietary restriction does the user have?,gluten-intolerant,turn_6,health
+locomo_user_0004,Who is the user's favorite artist?,John Singer Sargent,turn_7,preferences
+locomo_user_0004,What evening class does the user teach?,pottery,turn_5,profession

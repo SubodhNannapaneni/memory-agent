@@ -1,0 +1,4 @@
+strategy,mean_ms,std_ms,p50_ms,p95_ms,min_ms,max_ms,n_runs
+FLAT,359.66,164.12,304.69,707.46,288.53,1087.74,30
+PARTITIONED,332.53,85.37,296.19,509.51,278.59,656.46,30
+SPEEDUP,1.08,—,—,—,—,—,cohens_d=0.21

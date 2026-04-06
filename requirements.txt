@@ -1,0 +1,44 @@
+# ── Core LangGraph + LangChain ───────────────────────────────────────────────
+langgraph>=0.2.0
+langchain>=0.2.0
+langchain-core>=0.2.0
+
+# ── PostgreSQL (Persistent State + Checkpointer) ─────────────────────────────
+psycopg2-binary>=2.9.9          # used by db/postgres_setup.py (psycopg2 API)
+psycopg[binary]>=3.1.0          # langgraph-checkpoint-postgres requires psycopg v3; [binary] bundles libpq for Windows
+langgraph-checkpoint-postgres>=1.0.0
+
+# ── Vector Database: Milvus (local Docker, fully free) ──────────────────────
+pymilvus>=2.4.0
+
+# ── LLM Providers ────────────────────────────────────────────────────────────
+# OpenAI (GPT-4o, GPT-4o-mini)
+openai>=1.30.0
+langchain-openai>=0.1.0
+
+# Anthropic Claude (claude-3-5-sonnet, claude-3-haiku)
+anthropic>=0.28.0
+langchain-anthropic>=0.1.0
+
+# Google Gemini (gemini-2.5-flash, gemini-3-flash, gemini-3.1-pro, etc.)
+google-generativeai>=0.7.0
+langchain-google-genai>=1.0.0
+
+# Groq — free API (llama3-70b, mixtral-8x7b, gemma-7b)
+groq>=0.9.0
+langchain-groq>=0.1.0
+
+# ── Embeddings ────────────────────────────────────────────────────────────────
+tiktoken>=0.7.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+numpy>=1.26.0
+pandas>=2.0.0
+rich>=13.0.0
+tabulate>=0.9.0
+
+# ── Research Datasets ─────────────────────────────────────────────────────────
+datasets>=2.19.0          # HuggingFace datasets: PersonaChat, DailyDialog, LoCoMo, MSC
+huggingface_hub>=0.23.0

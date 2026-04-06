@@ -1,0 +1,49 @@
+# ── Secrets (NEVER commit these) ─────────────────────────────────────────────
+.env
+
+# ── Private / non-public files ────────────────────────────────────────────────
+Objective.txt
+*.docx
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environment ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDEs & editors ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Experiment results (large CSVs — keep locally, not in repo) ──────────────
+# Comment out the lines below if you want to publish your benchmark data.
+# experiments/results/*.csv
+
+# ── Milvus local data volumes ─────────────────────────────────────────────────
+volumes/
+milvus_data/
+
+# ── Pytest / coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
