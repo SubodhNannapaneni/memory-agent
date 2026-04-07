@@ -16,9 +16,9 @@ were used for the benchmark reported in the accompanying paper.
 
 Paper
 ─────
-Subodh Kumar N. "Persistent Memory for Conversational AI Agents:
+Subodh Kumar Nannapaneni. "Persistent Memory for Conversational AI Agents:
 Architecture, Benchmarks, and Operational Thresholds."
-GitHub: https://github.com/subodhkumar-n/memory-agent
+GitHub: https://github.com/SubodhNannapaneni/memory-agent
 """
 import os
 from dotenv import load_dotenv

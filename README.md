@@ -2,7 +2,7 @@
 
 > **Research implementation** for the paper:  
 > *"Persistent Memory for Conversational AI Agents: Architecture, Benchmarks, and Operational Thresholds"*  
-> Subodh Kumar N. — April 2026  
+> Subodh Kumar Nannapaneni — April 2026  
 > 📄 **[Read the paper (IEEE_PAPER.md)](IEEE_PAPER.md)** · 🔗 Preprint link TBD
 
 A production-grade, open-source memory layer for LLM-based conversational agents.
@@ -200,8 +200,8 @@ in `config.py`.
 If you use this codebase or the benchmark data in your research, please cite:
 
 ```
-Subodh Kumar N. (2026). Persistent Memory for Conversational AI Agents:
+Subodh Kumar Nannapaneni (2026). Persistent Memory for Conversational AI Agents:
 Architecture, Benchmarks, and Operational Thresholds.
-GitHub: https://github.com/subodhkumar-n/memory-agent
+GitHub: https://github.com/SubodhNannapaneni/memory-agent
 ```
 
